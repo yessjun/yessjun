@@ -13,7 +13,7 @@
 
 ## 👋 About
 
-**부산대학교**에서 구성원이 매일 쓰는 **교내 개발자 플랫폼**을 만들고 운영합니다.
+**교내 개발자 플랫폼**을 만들고 운영합니다. 부산대학교 구성원이 매일 쓰고 있습니다.
 
 - 🏗️ 클라우드 플랫폼 **`Pickle`** 과 SW프로젝트관리시스템 **`Opus`** 를 기획부터 운영까지 총괄했고, 지금까지 교내에서 서비스 중입니다.
 - ⚡ SW마에스트로 16기에서 **Knative 기반 scale-to-zero 배포 플랫폼 `LaunchPad`** 를 만들었습니다.
@@ -37,9 +37,9 @@ running:  [ pickle.pusan.ac.kr, opus.pusan.ac.kr ]
 <tr>
 <td width="50%" valign="top">
 
-### 🥒 Pickle
+### ☁️ 부산대학교 클라우드 플랫폼 (Pickle)
 
-부산대학교 구성원이 쓰는 클라우드 플랫폼입니다. 신청, 승인, 자동 생성, 회수로 이어지는 흐름을 만들었습니다.
+구성원이 필요한 자원을 신청하면 승인, 자동 생성, 회수로 이어지는 흐름을 만들었습니다.
 처음엔 Proxmox VE 위의 VM만 다뤘는데 지금은 LLM API 게이트웨이와 GPU 컨테이너까지 제공 리소스를 넓히는 중입니다.
 접근 쪽은 SSH 게이트웨이, 웹 터미널, 도메인 HTTPS 공개, 포트 포워딩을 붙였습니다.
 
@@ -51,22 +51,7 @@ running:  [ pickle.pusan.ac.kr, opus.pusan.ac.kr ]
 </td>
 <td width="50%" valign="top">
 
-### 🚀 LaunchPad
-
-SW마에스트로 16기 프로젝트. 코드를 올리면 이미지 빌드부터 실행까지 알아서 되는 배포 플랫폼입니다.
-Knative로 요청이 없을 때 Pod을 0까지 내리고, 네트워크 스토리지로 볼륨을 공유해서 데이터베이스가 붙은
-서비스도 scale-to-zero가 되게 만들었습니다. GitHub Webhook을 물려 푸시하면 바로 배포됩니다.
-
-`Kubernetes` `Knative` `Docker` `GitHub Webhook`
-
-[![SWM](https://img.shields.io/badge/SW_Maestro-16th-64ffda?style=flat-square)](https://www.swmaestro.org)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📊 Opus (SW프로젝트관리시스템)
+### 📊 SW프로젝트관리시스템 (Opus)
 
 부산대학교 SW교육센터에서 프로젝트장을 맡아 기획부터 운영까지 했습니다.
 시스템을 실제로 쓰게 될 학과 조교, 사업단 연구원과 이야기하면서 필요한 기능을 정리하고
@@ -76,6 +61,21 @@ Knative로 요청이 없을 때 Pod을 0까지 내리고, 네트워크 스토리
 
 [![Live](https://img.shields.io/badge/🌐_opus.pusan.ac.kr-2c5364?style=flat-square)](https://opus.pusan.ac.kr)
 [![Repo](https://img.shields.io/badge/Repos-181717?style=flat-square&logo=github)](https://github.com/orgs/PNUops/repositories?q=opus)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🚀 LaunchPad
+
+SW마에스트로 16기 프로젝트. 코드를 올리면 이미지 빌드부터 실행까지 알아서 되는 배포 플랫폼입니다.
+Knative로 요청이 없을 때 Pod을 0까지 내리고, 네트워크 스토리지로 볼륨을 공유해서 데이터베이스가 붙은
+서비스도 scale-to-zero가 되게 만들었습니다. GitHub Webhook을 물려 푸시하면 바로 배포됩니다.
+
+`Kubernetes` `Knative` `Docker` `GitHub Webhook`
+
+[![SWM](https://img.shields.io/badge/SW_Maestro-16th-64ffda?style=flat-square)](https://www.swmaestro.org)
 
 </td>
 <td width="50%" valign="top">
