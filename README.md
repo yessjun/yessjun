@@ -130,7 +130,11 @@ Knative로 요청이 없을 때 Pod을 0까지 내리고, 네트워크 스토리
 
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-![Firewall](https://img.shields.io/badge/Firewall_·_IPS_·_NAC-556270?style=for-the-badge&logo=cloudflare&logoColor=white)
+![nftables](https://img.shields.io/badge/nftables-4B5563?style=for-the-badge&logoColor=white)
+
+경계 방어 ![Firewall](https://img.shields.io/badge/Firewall-556270?style=for-the-badge) ![IPS](https://img.shields.io/badge/IPS-556270?style=for-the-badge)
+· 통합 관제 ![TMS](https://img.shields.io/badge/TMS-556270?style=for-the-badge)
+· 단말 접근 제어 ![NAC](https://img.shields.io/badge/NAC-556270?style=for-the-badge)
 
 </div>
 
