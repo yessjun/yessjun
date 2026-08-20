@@ -3,7 +3,7 @@
 <div align="center">
 
 <a href="https://www.linkedin.com/in/yejun-shin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:wns1826@naver.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="mailto:wns1826@naver.com"><img src="https://img.shields.io/badge/Email-03C75A?style=for-the-badge&logo=naver&logoColor=white" /></a>
 <a href="https://github.com/yessjun"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 <img src="https://komarev.com/ghpvc/?username=yessjun&style=for-the-badge&color=64ffda&label=PROFILE+VIEWS" />
 
@@ -15,7 +15,7 @@
 
 **부산대학교 정보컴퓨터공학부**를 마치고, 실제 사용자가 매일 쓰는 **클라우드·배포 플랫폼**을 설계하고 운영합니다.
 
-- 🏗️ 부산대학교 클라우드 플랫폼 **`Pickle`** 과 SW프로젝트관리시스템 **`Opus`** 를 기획부터 운영까지 총괄했고, 지금도 교내에서 서비스 중입니다.
+- 🏗️ 부산대학교 클라우드 플랫폼 **`Pickle`** 과 SW프로젝트관리시스템 **`Opus`** 를 기획부터 운영까지 총괄했고, 지금까지 교내에서 서비스 중입니다.
 - ⚡ SW마에스트로 16기에서 **Knative 기반 scale-to-zero 배포 플랫폼 `LaunchPad`** 를 만들었습니다.
 - 🛡️ **BoB 8기 취약점 분석 트랙**을 수료하고, **공군사관학교**에서 망분리 환경 관제와 엔드포인트 보안, 침해사고 대응을 했습니다.
 - 🧩 온프레미스 인프라 자동화와 서버 운영을 주로 다룹니다.
@@ -46,7 +46,7 @@ running:  [ pickle.pusan.ac.kr, opus.pusan.ac.kr ]
 `Spring Boot` `Go` `PostgreSQL` `Proxmox VE` `nftables`
 
 [![Live](https://img.shields.io/badge/🌐_pickle.pusan.ac.kr-2c5364?style=flat-square)](https://pickle.pusan.ac.kr)
-[![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github)](https://github.com/PNUops)
+[![Repo](https://img.shields.io/badge/Repos-181717?style=flat-square&logo=github)](https://github.com/orgs/PNUops/repositories?q=pickle)
 
 </td>
 <td width="50%" valign="top">
@@ -70,12 +70,12 @@ Knative로 요청이 없을 때 Pod을 0까지 내리고, 네트워크 스토리
 
 부산대학교 SW교육센터에서 프로젝트장을 맡아 기획부터 운영까지 했습니다.
 시스템을 실제로 쓰게 될 학과 조교, 사업단 연구원과 이야기하면서 필요한 기능을 정리하고
-무엇부터 만들지 순서를 잡았습니다. 지금도 학부에서 쓰고 있습니다.
+무엇부터 만들지 순서를 잡았습니다. 지금까지 학부에서 쓰고 있습니다.
 
 `Spring` `MySQL` `3-tier`
 
 [![Live](https://img.shields.io/badge/🌐_opus.pusan.ac.kr-2c5364?style=flat-square)](https://opus.pusan.ac.kr)
-[![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github)](https://github.com/PNUops)
+[![Repo](https://img.shields.io/badge/Repos-181717?style=flat-square&logo=github)](https://github.com/orgs/PNUops/repositories?q=opus)
 
 </td>
 <td width="50%" valign="top">
