@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Yejun%20Shin&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Platform%20Engineer%20%C2%B7%20Infrastructure%20%C2%B7%20Security&descAlignY=58&descSize=18" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Yejun%20Shin&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=Platform%20Engineer%20%C2%B7%20Infrastructure%20%C2%B7%20Security&descAlignY=58&descSize=18" />
 
 <div align="center">
 
@@ -21,7 +21,7 @@
 
 **부산대학교 정보컴퓨터공학부**를 마치고, 실제 사용자가 매일 쓰는 **클라우드·배포 플랫폼**을 설계하고 운영합니다.
 
-- 🏗️ 대학 구성원 대상 **셀프서비스 VM 클라우드 `Pickle`** 과 **SW프로젝트관리시스템 `opus`** 를 기획부터 운영까지 총괄 — 둘 다 지금도 부산대에서 돌아가고 있습니다.
+- 🏗️ 부산대학교 클라우드 플랫폼 **`Pickle`** 과 **SW프로젝트관리시스템**을 기획부터 운영까지 총괄했고, 지금도 교내에서 서비스 중입니다.
 - ⚡ SW마에스트로 16기에서 **Knative 기반 scale-to-zero 배포 플랫폼 `LaunchPad`** 를 만들었습니다.
 - 🛡️ **BoB 8기 취약점 분석 트랙**과 공군 망분리 환경 관제 경험이 있어, 시스템을 **공격자 관점**으로도 봅니다.
 - 🧩 관심사는 **온프레미스 인프라 자동화**, **컨테이너 오케스트레이션**, **개발자 경험(DevEx)**.
@@ -44,11 +44,11 @@ motto:    "인프라는 보이지 않을 때 가장 잘 동작한다"
 <td width="50%" valign="top">
 
 ### 🥒 Pickle
-> **부산대학교 셀프서비스 VM 클라우드 플랫폼**
+> **부산대학교 셀프서비스 클라우드 플랫폼**
 
-구성원이 직접 VM을 신청하면 관리자 승인 후 **Proxmox VE 기반으로 자동 프로비저닝**되고, 사용 종료 시 회수까지 이어지는 전체 운영 흐름을 설계했습니다. SSH 게이트웨이, 웹 터미널, 도메인 기반 HTTPS 공개, 포트 포워딩 등 접근·네트워크 기능을 직접 구현했습니다.
+구성원이 필요한 컴퓨팅 자원을 직접 신청하면 승인 후 자동으로 준비되고, 사용 종료 시 회수까지 이어지는 전체 운영 흐름을 설계했습니다. **VM 프로비저닝**에서 출발해 **LLM API 게이트웨이**, **GPU 컨테이너** 등 제공 리소스를 넓혀가고 있습니다. SSH 게이트웨이, 웹 터미널, 도메인 기반 HTTPS 공개, 포트 포워딩 등 접근·네트워크 기능도 직접 구현했습니다.
 
-`Spring Boot` `Go` `PostgreSQL` `Proxmox VE` `nftables`
+`Spring Boot` `Go` `PostgreSQL` `Proxmox VE` `nftables` `GPU` `LLM Gateway`
 
 [![Live](https://img.shields.io/badge/🌐_pickle.pusan.ac.kr-2c5364?style=flat-square)](https://pickle.pusan.ac.kr)
 [![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github)](https://github.com/PNUops)
@@ -70,10 +70,10 @@ motto:    "인프라는 보이지 않을 때 가장 잘 동작한다"
 <tr>
 <td width="50%" valign="top">
 
-### 📊 opus
-> **부산대학교 SW프로젝트관리시스템**
+### 📊 SW프로젝트관리시스템
+> **부산대학교 학부 프로젝트 관리 서비스**
 
-프로젝트장으로 **기획·개발·운영을 총괄**했습니다. 학과 조교와 사업단 연구원 등 이해관계자와 직접 협의해 요구사항을 모으고, 기능 우선순위와 구현 방향을 주도적으로 결정했습니다.
+프로젝트장으로 **기획·개발·운영을 총괄**했습니다. 실제로 시스템을 쓰게 될 학과 조교, 사업단 연구원과 직접 이야기하며 무엇이 필요한지 정리했고, 기능 우선순위와 구현 방향을 주도적으로 결정했습니다.
 
 `Spring` `MySQL` `3-tier`
 
@@ -86,9 +86,9 @@ motto:    "인프라는 보이지 않을 때 가장 잘 동작한다"
 ### 🛡️ Security Research
 > **취약점 분석 · 제보**
 
-- 글로벌 게임사 **클라이언트 인증 취약점** 발견 및 제보 — **버그바운티 $2,000**
+- 글로벌 게임사 **클라이언트 인증 취약점** 발견 및 제보 (**버그바운티 $2,000**)
 - 글로벌 게임사 한국 모바일 스토어 **부정 재화 취득 취약점** 제보
-- 국립대학교 통합포털 인증 취약점 제보 — **KVE-2018-2164**
+- 국립대학교 통합포털 인증 취약점 제보 (**KVE-2018-2164**)
 
 `BoB 8th` `Vulnerability Analysis`
 
@@ -142,10 +142,11 @@ motto:    "인프라는 보이지 않을 때 가장 잘 동작한다"
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=yessjun&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=64ffda&icon_color=64ffda" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yessjun&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=64ffda" />
+<img width="49%" src="./metrics.overview.svg" />
+<img width="49%" src="./metrics.languages.svg" />
 
-<img height="165" src="https://github-readme-streak-stats.demolab.com?user=yessjun&theme=tokyonight&hide_border=true&background=0D1117&ring=64FFDA&fire=64FFDA&currStreakLabel=64FFDA" />
+<img width="49%" src="./metrics.isocalendar.svg" />
+<img width="49%" src="./metrics.achievements.svg" />
 
 <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=yessjun&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=64FFDA&line=64FFDA&point=FFFFFF&area=true" />
 
@@ -231,7 +232,7 @@ motto:    "인프라는 보이지 않을 때 가장 잘 동작한다"
 | 2026.07 ~ | Codyssey AI 올인원 2기 | 교육 과정 |
 | 2026.01 ~ 2026.02 | SW마에스트로 글로벌 AI·SW역량 강화 교육 (미국) | 해외 연수 |
 | 2025.04 ~ 2025.12 | SW마에스트로 16기 | LaunchPad 설계 및 개발 |
-| 2025.03 ~ 2025.12 | 부산대학교 SW교육센터 | 학생연구원 · opus / Pickle 개발 총괄 |
+| 2025.03 ~ 2025.12 | 부산대학교 SW교육센터 | 학생연구원 · Pickle / SW프로젝트관리시스템 개발 총괄 |
 | 2025.01 ~ 2025.02 | LG CNS 스마트팩토리 사업부 | 인턴 · RMS 개발 (API 중복 호출 83% 감소) |
 | 2021.05 ~ 2022.12 | 공군사관학교 정보보호반 | 망분리 환경 네트워크 관제 · 침해사고 대응 |
 | 2019.07 ~ 2020.03 | BoB 8기 | 취약점 분석 트랙 |
@@ -246,4 +247,4 @@ motto:    "인프라는 보이지 않을 때 가장 잘 동작한다"
   <img width="100%" src="https://raw.githubusercontent.com/yessjun/yessjun/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=140&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=140&section=footer&text=Thanks%20for%20visiting!&fontSize=22&fontColor=ffffff&fontAlignY=72" />
