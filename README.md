@@ -1,0 +1,249 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Yejun%20Shin&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Platform%20Engineer%20%C2%B7%20Infrastructure%20%C2%B7%20Security&descAlignY=58&descSize=18" />
+
+<div align="center">
+
+<a href="https://github.com/yessjun">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=900&color=64FFDA&center=true&vCenter=true&width=680&lines=%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%B4%20%EC%93%B0%EB%8A%94%20%ED%94%8C%EB%9E%AB%ED%8F%BC%EC%9D%84%20%EB%A7%8C%EB%93%AD%EB%8B%88%EB%8B%A4.;Building+cloud+platforms+that+people+actually+use.;On-prem+Kubernetes+%C2%B7+Knative+%C2%B7+Proxmox+VE;From+packet+analysis+to+platform+design." alt="Typing SVG" />
+</a>
+
+<br/>
+
+<a href="https://www.linkedin.com/in/yejun-shin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:wns1826@naver.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://github.com/yessjun"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+<img src="https://komarev.com/ghpvc/?username=yessjun&style=for-the-badge&color=64ffda&label=PROFILE+VIEWS" />
+
+</div>
+
+<br/>
+
+## 👋 About
+
+**부산대학교 정보컴퓨터공학부**를 마치고, 실제 사용자가 매일 쓰는 **클라우드·배포 플랫폼**을 설계하고 운영합니다.
+
+- 🏗️ 대학 구성원 대상 **셀프서비스 VM 클라우드 `Pickle`** 과 **SW프로젝트관리시스템 `opus`** 를 기획부터 운영까지 총괄 — 둘 다 지금도 부산대에서 돌아가고 있습니다.
+- ⚡ SW마에스트로 16기에서 **Knative 기반 scale-to-zero 배포 플랫폼 `LaunchPad`** 를 만들었습니다.
+- 🛡️ **BoB 8기 취약점 분석 트랙**과 공군 망분리 환경 관제 경험이 있어, 시스템을 **공격자 관점**으로도 봅니다.
+- 🧩 관심사는 **온프레미스 인프라 자동화**, **컨테이너 오케스트레이션**, **개발자 경험(DevEx)**.
+
+```yaml
+name:     신예준 (Yejun Shin)
+role:     Platform Engineer
+edu:      Pusan National University, CSE
+programs: [ SW Maestro 16th, BoB 8th (Vulnerability Analysis), Codyssey AI 2nd ]
+focus:    [ Kubernetes, Knative, Proxmox VE, Spring Boot, Go ]
+motto:    "인프라는 보이지 않을 때 가장 잘 동작한다"
+```
+
+<br/>
+
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🥒 Pickle
+> **부산대학교 셀프서비스 VM 클라우드 플랫폼**
+
+구성원이 직접 VM을 신청하면 관리자 승인 후 **Proxmox VE 기반으로 자동 프로비저닝**되고, 사용 종료 시 회수까지 이어지는 전체 운영 흐름을 설계했습니다. SSH 게이트웨이, 웹 터미널, 도메인 기반 HTTPS 공개, 포트 포워딩 등 접근·네트워크 기능을 직접 구현했습니다.
+
+`Spring Boot` `Go` `PostgreSQL` `Proxmox VE` `nftables`
+
+[![Live](https://img.shields.io/badge/🌐_pickle.pusan.ac.kr-2c5364?style=flat-square)](https://pickle.pusan.ac.kr)
+[![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github)](https://github.com/PNUops)
+
+</td>
+<td width="50%" valign="top">
+
+### 🚀 LaunchPad
+> **Knative 기반 서버리스 배포 플랫폼** · SW마에스트로 16기
+
+코드를 올리면 **컨테이너 이미지 빌드부터 실행까지 자동으로** 이어지는 배포 구조를 만들었습니다. 요청이 없으면 Pod을 0으로 줄이고 트래픽이 들어오면 다시 띄우는 **scale-to-zero** 구조를, 네트워크 스토리지 공유를 통해 **데이터베이스까지 포함해** 설계했습니다.
+
+`Kubernetes` `Knative` `Docker` `GitHub Webhook`
+
+[![SWM](https://img.shields.io/badge/SW_Maestro-16th-64ffda?style=flat-square)](https://www.swmaestro.org)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📊 opus
+> **부산대학교 SW프로젝트관리시스템**
+
+프로젝트장으로 **기획·개발·운영을 총괄**했습니다. 학과 조교와 사업단 연구원 등 이해관계자와 직접 협의해 요구사항을 모으고, 기능 우선순위와 구현 방향을 주도적으로 결정했습니다.
+
+`Spring` `MySQL` `3-tier`
+
+[![Live](https://img.shields.io/badge/🌐_opus.pusan.ac.kr-2c5364?style=flat-square)](https://opus.pusan.ac.kr)
+[![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github)](https://github.com/PNUops)
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡️ Security Research
+> **취약점 분석 · 제보**
+
+- 글로벌 게임사 **클라이언트 인증 취약점** 발견 및 제보 — **버그바운티 $2,000**
+- 글로벌 게임사 한국 모바일 스토어 **부정 재화 취득 취약점** 제보
+- 국립대학교 통합포털 인증 취약점 제보 — **KVE-2018-2164**
+
+`BoB 8th` `Vulnerability Analysis`
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+**Languages**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+
+**Backend**
+
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+**Infrastructure**
+
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Knative](https://img.shields.io/badge/Knative-0865AD?style=for-the-badge&logo=knative&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Proxmox](https://img.shields.io/badge/Proxmox_VE-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+**Security & Network**
+
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
+![Firewall](https://img.shields.io/badge/Firewall_·_IPS_·_NAC-556270?style=for-the-badge&logo=cloudflare&logoColor=white)
+
+</div>
+
+<br/>
+
+## 📈 GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=yessjun&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=64ffda&icon_color=64ffda" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yessjun&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=64ffda" />
+
+<img height="165" src="https://github-readme-streak-stats.demolab.com?user=yessjun&theme=tokyonight&hide_border=true&background=0D1117&ring=64FFDA&fire=64FFDA&currStreakLabel=64FFDA" />
+
+<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=yessjun&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=64FFDA&line=64FFDA&point=FFFFFF&area=true" />
+
+</div>
+
+<br/>
+
+## 🏆 Awards & Experience
+
+**Highlights**
+
+| 연도 | 수상 | 시상 |
+|:---|:---|:---|
+| 2024 | 제11회 대한민국 SW융합 해커톤 **대상** | 과학기술정보통신부 장관 |
+| 2025 | 제12회 대한민국 SW융합 해커톤 **우수상** | 충청북도지사 |
+| 2023 | 모형차 자율주행 경진대회 **대상** | 한동대학교 SW중심대학지원사업단장 |
+| 2024 | 캡스톤디자인(졸업과제) **금상** | 부산대학교 정보의생명공학대학장 |
+| 2017 | 한국정보올림피아드 **은상** | 한국정보화진흥원장 |
+
+<details>
+<summary><b>📂 전체 수상 이력 펼치기 (30+)</b></summary>
+
+<br/>
+
+**대학 교외활동**
+
+| 날짜 | 대회 | 상 |
+|:---|:---|:---|
+| 2025.08.31 | 제12회 대한민국 SW융합 해커톤 (지정과제2) | 우수상 · 충청북도지사 |
+| 2024.08.25 | 제11회 대한민국 SW융합 해커톤 (지정과제1) | 대상 · 과학기술정보통신부 장관 |
+| 2024.08.14 | 제1회 전국대학 소프트웨어 성과 공유 포럼 | 우수상 · 동아대학교 소프트웨어혁신센터장 |
+| 2023.08.19 | 2023 모형차 자율주행 경진대회 | 대상 · 한동대학교 SW중심대학지원사업단장 |
+| 2022.05.02 | 공사 창업경진대회 | 우수상 · 공군사관학교장 |
+| 2021.11.25 | 2021년 정보통신경연대회 | 특별상 · 공군 정보통신학교장 |
+| 2020.09.18 | 2020 부산 코딩경진대회 | 동상 · 부산소프트웨어중심대학협의회장 |
+| 2019.06.27 | 2019 SEOUL 미세먼지 해커톤 | 우수상 · 서울기술연구원장 |
+
+**부산대학교**
+
+| 날짜 | 대회 | 상 |
+|:---|:---|:---|
+| 2025.10.01 | 2025 CSE TECHWEEK 프로그래밍 경진대회 | 4학년 2등 |
+| 2025.10.01 | 2025 CSE TECHWEEK 해커톤 | 3등 |
+| 2025.05.20 | 2025년 부산대학교 프로그래밍 대회 | 동상 |
+| 2024.11.01 | 캡스톤디자인(졸업과제) | 금상 |
+| 2024.09.07 | 제5회 PNU 창의융합SW해커톤 | 우수상 |
+| 2024.05.29 | 2024년 부산대학교 프로그래밍 대회 CodeRace | 동상 |
+| 2023.11.03 | PNU Tiny ML Challenge 2023 | 은상 |
+| 2023.11.02 | SW Innovation 창업 해커톤 대회 | 최우수상 · 부산대학교 총장 |
+| 2023.05.08 | 2023년 부산대학교 프로그래밍 대회 CodeRace | 금상 |
+
+**고교 시절**
+
+| 날짜 | 대회 | 상 |
+|:---|:---|:---|
+| 2017.11.24 | 한국정보올림피아드 | 은상 · 한국정보화진흥원장 |
+| 2017.08.31 | 모바일 프로그래밍 대회 | 금상 (2위) |
+| 2017.08.26 | 서강대학교 총장배 전국고등학생 알고리즘 경진대회 | SW교육센터장상 |
+| 2017.08.24 | IT역량종합평가대회 | 대상 (1위) |
+| 2017.08.19 | 국민대학교 알고리즘 대회 | 장려상 |
+| 2017.07.19 | 정보보호 탐구발표 대회 | 장려상 (4위) |
+| 2017.02.03 | 2016 비즈쿨 성과발표회 | 장려상 (3위) |
+| 2017.01.21 | 강원랜드 챌린지 메이커톤 | 하드웨어 부문 대상 |
+| 2016.12.27 | 디미고 해카톤대회 | 금상 (1위) |
+| 2016.11.30 | 교내 모의해킹대회 | 동상 (3위) |
+| 2016.11.08 | Smarteen App Challenge 2016 | 특별상 · SK텔레콤 대표이사 |
+| 2016.11.03 | 굿모닝 주니어 창조학교 경진대회 | 우수상 · 경기콘텐츠진흥원장 |
+| 2016.09.11 | 트렌드 X AR/VR WEEK 해커톤 | 우수상 · 서울창조경제혁신센터장 |
+| 2016.07.23 | AppJam | 우수상 · 안양시장 |
+| 2015.12.24 | 1학년 프로그래밍 경진대회 | 금상 (1위) |
+| 2015.12.20 | 창조경제 IoT 해커톤 | 창조상 · 서울창조경제혁신센터장 |
+| 2014.09.30 | 한국정보올림피아드 경시대회 | 동상 · 한국정보과학회장 |
+
+</details>
+
+<details>
+<summary><b>💼 경력 & 활동</b></summary>
+
+<br/>
+
+| 기간 | 소속 | 역할 |
+|:---|:---|:---|
+| 2026.07 ~ | Codyssey AI 올인원 2기 | 교육 과정 |
+| 2026.01 ~ 2026.02 | SW마에스트로 글로벌 AI·SW역량 강화 교육 (미국) | 해외 연수 |
+| 2025.04 ~ 2025.12 | SW마에스트로 16기 | LaunchPad 설계 및 개발 |
+| 2025.03 ~ 2025.12 | 부산대학교 SW교육센터 | 학생연구원 · opus / Pickle 개발 총괄 |
+| 2025.01 ~ 2025.02 | LG CNS 스마트팩토리 사업부 | 인턴 · RMS 개발 (API 중복 호출 83% 감소) |
+| 2021.05 ~ 2022.12 | 공군사관학교 정보보호반 | 망분리 환경 네트워크 관제 · 침해사고 대응 |
+| 2019.07 ~ 2020.03 | BoB 8기 | 취약점 분석 트랙 |
+| 2019.03 ~ 2026.02 | 부산대학교 정보컴퓨터공학부 | 학사 |
+| ~ 2019 | 한국디지털미디어고등학교 | 해킹방어과 |
+
+</details>
+
+<br/>
+
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/yessjun/yessjun/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=140&section=footer" />
