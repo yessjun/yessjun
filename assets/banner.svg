@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Yejun Shin, Platform Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#64ffda"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+
+  <g opacity="0.16">
+    <path fill="url(#wave)" d="M0,232 C200,196 340,268 600,240 C860,212 1000,272 1200,244 L1200,300 L0,300 Z">
+      <animate attributeName="d" dur="14s" repeatCount="indefinite"
+        values="M0,232 C200,196 340,268 600,240 C860,212 1000,272 1200,244 L1200,300 L0,300 Z;
+                M0,244 C200,276 340,204 600,232 C860,260 1000,200 1200,232 L1200,300 L0,300 Z;
+                M0,232 C200,196 340,268 600,240 C860,212 1000,272 1200,244 L1200,300 L0,300 Z"/>
+    </path>
+  </g>
+  <g opacity="0.28">
+    <path fill="url(#wave)" d="M0,258 C240,286 420,226 660,254 C900,282 1040,238 1200,262 L1200,300 L0,300 Z">
+      <animate attributeName="d" dur="11s" repeatCount="indefinite"
+        values="M0,258 C240,286 420,226 660,254 C900,282 1040,238 1200,262 L1200,300 L0,300 Z;
+                M0,266 C240,232 420,290 660,262 C900,234 1040,286 1200,256 L1200,300 L0,300 Z;
+                M0,258 C240,286 420,226 660,254 C900,282 1040,238 1200,262 L1200,300 L0,300 Z"/>
+    </path>
+  </g>
+
+  <g font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="112" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="1">Yejun Shin</text>
+    <text x="600" y="152" font-size="19" font-weight="600" fill="#64ffda" letter-spacing="4">PLATFORM ENGINEER · INFRASTRUCTURE · SECURITY</text>
+
+    <g font-size="17" font-weight="500" fill="#cbd5e1">
+      <text x="600" y="203">
+        <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
+          keyTimes="0; 0.02; 0.23; 0.25; 1" values="0; 1; 1; 0; 0"/>
+        사람들이 실제로 쓰는 플랫폼을 만듭니다.
+      </text>
+      <text x="600" y="203">
+        <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
+          keyTimes="0; 0.25; 0.27; 0.48; 0.50; 1" values="0; 0; 1; 1; 0; 0"/>
+        Building cloud platforms that people actually use.
+      </text>
+      <text x="600" y="203">
+        <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
+          keyTimes="0; 0.50; 0.52; 0.73; 0.75; 1" values="0; 0; 1; 1; 0; 0"/>
+        On-prem Kubernetes · Knative · Proxmox VE
+      </text>
+      <text x="600" y="203">
+        <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
+          keyTimes="0; 0.75; 0.77; 0.98; 1" values="0; 0; 1; 1; 0"/>
+        From packet analysis to platform design.
+      </text>
+    </g>
+  </g>
+
+  <g transform="translate(600 240)" text-anchor="middle" font-family="Consolas, Menlo, Monaco, monospace" font-size="13" fill="#7dd3fc" opacity="0.85">
+    <text x="0" y="0">PNU CSE &#160;·&#160; SW Maestro 16th &#160;·&#160; BoB 8th</text>
+  </g>
+</svg>

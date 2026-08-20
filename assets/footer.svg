@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160" role="img" aria-label="Thanks for visiting">
+  <defs>
+    <linearGradient id="fbg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+    <linearGradient id="fwave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#64ffda"/>
+    </linearGradient>
+    <clipPath id="fclip"><rect x="0" y="0" width="1200" height="160"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#fclip)">
+    <path fill="url(#fbg)" d="M0,46 C220,10 420,74 660,46 C900,18 1040,66 1200,40 L1200,160 L0,160 Z">
+      <animate attributeName="d" dur="13s" repeatCount="indefinite"
+        values="M0,46 C220,10 420,74 660,46 C900,18 1040,66 1200,40 L1200,160 L0,160 Z;
+                M0,36 C220,72 420,14 660,42 C900,70 1040,20 1200,50 L1200,160 L0,160 Z;
+                M0,46 C220,10 420,74 660,46 C900,18 1040,66 1200,40 L1200,160 L0,160 Z"/>
+    </path>
+    <path fill="url(#fwave)" opacity="0.22" d="M0,74 C240,102 420,44 660,72 C900,100 1040,58 1200,80 L1200,160 L0,160 Z">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite"
+        values="M0,74 C240,102 420,44 660,72 C900,100 1040,58 1200,80 L1200,160 L0,160 Z;
+                M0,82 C240,50 420,106 660,80 C900,54 1040,98 1200,70 L1200,160 L0,160 Z;
+                M0,74 C240,102 420,44 660,72 C900,100 1040,58 1200,80 L1200,160 L0,160 Z"/>
+    </path>
+  </g>
+
+  <text x="600" y="128" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="20" font-weight="600" fill="#ffffff" letter-spacing="2">Thanks for visiting!</text>
+</svg>

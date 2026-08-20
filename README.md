@@ -1,12 +1,6 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Yejun%20Shin&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=Platform%20Engineer%20%C2%B7%20Infrastructure%20%C2%B7%20Security&descAlignY=58&descSize=18" />
+<img width="100%" src="./assets/banner.svg" alt="Yejun Shin, Platform Engineer" />
 
 <div align="center">
-
-<a href="https://github.com/yessjun">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=900&color=64FFDA&center=true&vCenter=true&width=680&lines=%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%B4%20%EC%93%B0%EB%8A%94%20%ED%94%8C%EB%9E%AB%ED%8F%BC%EC%9D%84%20%EB%A7%8C%EB%93%AD%EB%8B%88%EB%8B%A4.;Building+cloud+platforms+that+people+actually+use.;On-prem+Kubernetes+%C2%B7+Knative+%C2%B7+Proxmox+VE;From+packet+analysis+to+platform+design." alt="Typing SVG" />
-</a>
-
-<br/>
 
 <a href="https://www.linkedin.com/in/yejun-shin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:wns1826@naver.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
@@ -252,4 +246,4 @@ motto:    "인프라는 보이지 않을 때 가장 잘 동작한다"
   <img width="100%" src="https://raw.githubusercontent.com/yessjun/yessjun/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=140&section=footer&text=Thanks%20for%20visiting!&fontSize=22&fontColor=ffffff&fontAlignY=72" />
+<img width="100%" src="./assets/footer.svg" alt="Thanks for visiting" />
