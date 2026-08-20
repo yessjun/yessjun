@@ -52,7 +52,7 @@
       <text x="600" y="203">
         <animate attributeName="opacity" dur="12s" repeatCount="indefinite"
           keyTimes="0; 0.50; 0.52; 0.73; 0.75; 1" values="0; 0; 1; 1; 0; 0"/>
-        On-prem Kubernetes · Knative · Proxmox VE
+        On-prem infrastructure · Proxmox VE · Spring Boot · Go
       </text>
       <text x="600" y="203">
         <animate attributeName="opacity" dur="12s" repeatCount="indefinite"

@@ -16,16 +16,16 @@
 **부산대학교 정보컴퓨터공학부**를 마치고, 실제 사용자가 매일 쓰는 **클라우드·배포 플랫폼**을 설계하고 운영합니다.
 
 - 🏗️ 부산대학교 클라우드 플랫폼 **`Pickle`** 과 SW프로젝트관리시스템 **`Opus`** 를 기획부터 운영까지 총괄했고, 지금도 교내에서 서비스 중입니다.
-- ⚡ SW마에스트로 16기에서 **Knative 기반 scale-to-zero 배포 플랫폼 `LaunchPad`** 를 만들었습니다.
+- ⚡ SW마에스트로 16기에서 요청이 없으면 컨테이너를 0까지 줄이는 배포 플랫폼 **`LaunchPad`** 를 만들었습니다.
 - 🛡️ **BoB 8기 취약점 분석 트랙**을 수료하고, **공군사관학교**에서 망분리 환경 관제와 엔드포인트 보안, 침해사고 대응을 했습니다.
-- 🧩 온프레미스 인프라 자동화와 컨테이너 오케스트레이션을 주로 다룹니다.
+- 🧩 온프레미스 인프라 자동화와 서버 운영을 주로 다룹니다.
 
 ```yaml
 name:     신예준 (Yejun Shin)
 role:     Platform Engineer
 edu:      Pusan National University, CSE
 programs: [ SW Maestro 16th, BoB 8th (Vulnerability Analysis), Codyssey AI 2nd ]
-focus:    [ Kubernetes, Knative, Proxmox VE, Spring Boot, Go ]
+focus:    [ Proxmox VE, Spring Boot, Go, PostgreSQL, Linux ]
 running:  [ pickle.pusan.ac.kr, opus.pusan.ac.kr ]
 ```
 
@@ -118,8 +118,6 @@ Knative로 요청이 없을 때 Pod을 0까지 내리고, 네트워크 스토리
 
 **Infrastructure**
 
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Knative](https://img.shields.io/badge/Knative-0865AD?style=for-the-badge&logo=knative&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Proxmox](https://img.shields.io/badge/Proxmox_VE-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
