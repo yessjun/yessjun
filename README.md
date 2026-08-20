@@ -131,10 +131,8 @@ Knative로 요청이 없을 때 Pod을 0까지 내리고, 네트워크 스토리
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
 ![nftables](https://img.shields.io/badge/nftables-4B5563?style=for-the-badge&logo=linux&logoColor=white)
-![Firewall](https://img.shields.io/badge/Firewall-556270?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI+PHBhdGggZD0iTTEyIDEgMyA1djZjMCA1LjYgMy44IDEwLjcgOSAxMiA1LjItMS4zIDktNi40IDktMTJWNXoiLz48L3N2Zz4=)
-![IPS](https://img.shields.io/badge/IPS-556270?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI+PHBhdGggZD0iTTEyIDEgMyA1djZjMCA1LjYgMy44IDEwLjcgOSAxMiA1LjItMS4zIDktNi40IDktMTJWNXoiLz48L3N2Zz4=)
-![TMS](https://img.shields.io/badge/TMS-556270?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI+PHBhdGggZD0iTTEyIDEgMyA1djZjMCA1LjYgMy44IDEwLjcgOSAxMiA1LjItMS4zIDktNi40IDktMTJWNXoiLz48L3N2Zz4=)
-![NAC](https://img.shields.io/badge/NAC-556270?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI+PHBhdGggZD0iTTEyIDEgMyA1djZjMCA1LjYgMy44IDEwLjcgOSAxMiA1LjItMS4zIDktNi40IDktMTJWNXoiLz48L3N2Zz4=)
+![Firewall / IPS](https://img.shields.io/badge/Firewall%20%2F%20IPS-556270?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI+PHBhdGggZD0iTTIgM2gyMHY1SDJ6TTIgOS41aDl2NUgyem0xMCAwaDEwdjVIMTJ6TTIgMTZoMjB2NUgyeiIvPjwvc3ZnPg==)
+![NAC](https://img.shields.io/badge/NAC-556270?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI+PHBhdGggZD0iTTE3IDlWN2E1IDUgMCAwIDAtMTAgMHYySDV2MTNoMTRWOXpNOSA3YTMgMyAwIDAgMSA2IDB2Mkg5eiIvPjwvc3ZnPg==)
 
 </div>
 
