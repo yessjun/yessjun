@@ -69,9 +69,7 @@ for (const repo of [...u.repositories.nodes, ...u.repositoriesContributedTo.node
 const ranked = [...langs.entries()]
   .map(([name, v]) => ({ name, ...v }))
   .sort((a, b) => b.size - a.size);
-const allBytes = ranked.reduce((a, l) => a + l.size, 0) || 1;
-// Drop long-tail noise (<1%) so the legend stays readable.
-const top = ranked.filter((l) => l.size / allBytes >= 0.01).slice(0, 8);
+const top = ranked.slice(0, 8);
 const totalBytes = top.reduce((a, l) => a + l.size, 0) || 1;
 
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
