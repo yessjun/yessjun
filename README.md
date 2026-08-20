@@ -5,7 +5,7 @@
 <a href="https://www.linkedin.com/in/yejun-shin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:wns1826@naver.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://github.com/yessjun"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-<img src="https://komarev.com/ghpvc/?username=yessjun&style=for-the-badge&color=2c5364&label=PROFILE+VIEWS" />
+<img src="https://komarev.com/ghpvc/?username=yessjun&style=for-the-badge&color=0e7490&label=PROFILE+VIEWS" />
 
 </div>
 
@@ -13,7 +13,7 @@
 
 ## 👋 About
 
-**부산대학교 정보컴퓨터공학부**를 마치고, 실제 사용자가 매일 쓰는 **클라우드·배포 플랫폼**을 설계하고 운영합니다.
+**부산대학교**에서 구성원이 매일 쓰는 **교내 개발자 플랫폼**을 만들고 운영합니다.
 
 - 🏗️ 부산대학교 클라우드 플랫폼 **`Pickle`** 과 SW프로젝트관리시스템 **`Opus`** 를 기획부터 운영까지 총괄했고, 지금까지 교내에서 서비스 중입니다.
 - ⚡ SW마에스트로 16기에서 **Knative 기반 scale-to-zero 배포 플랫폼 `LaunchPad`** 를 만들었습니다.
