@@ -102,11 +102,11 @@ Knative로 요청이 없을 때 Pod을 0까지 내리고, 네트워크 스토리
 
 **Languages**
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![C/C++](https://img.shields.io/badge/C%20%2F%20C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
 **Backend**
 
@@ -130,12 +130,11 @@ Knative로 요청이 없을 때 Pod을 0까지 내리고, 네트워크 스토리
 
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-![nftables](https://img.shields.io/badge/nftables-4B5563?style=for-the-badge&logoColor=white)
-
-![Firewall](https://img.shields.io/badge/Firewall-556270?style=for-the-badge)
-![IPS](https://img.shields.io/badge/IPS-556270?style=for-the-badge)
-![TMS](https://img.shields.io/badge/TMS-556270?style=for-the-badge)
-![NAC](https://img.shields.io/badge/NAC-556270?style=for-the-badge)
+![nftables](https://img.shields.io/badge/nftables-4B5563?style=for-the-badge&logo=linux&logoColor=white)
+![Firewall](https://img.shields.io/badge/Firewall-556270?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI+PHBhdGggZD0iTTEyIDEgMyA1djZjMCA1LjYgMy44IDEwLjcgOSAxMiA1LjItMS4zIDktNi40IDktMTJWNXoiLz48L3N2Zz4=)
+![IPS](https://img.shields.io/badge/IPS-556270?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI+PHBhdGggZD0iTTEyIDEgMyA1djZjMCA1LjYgMy44IDEwLjcgOSAxMiA1LjItMS4zIDktNi40IDktMTJWNXoiLz48L3N2Zz4=)
+![TMS](https://img.shields.io/badge/TMS-556270?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI+PHBhdGggZD0iTTEyIDEgMyA1djZjMCA1LjYgMy44IDEwLjcgOSAxMiA1LjItMS4zIDktNi40IDktMTJWNXoiLz48L3N2Zz4=)
+![NAC](https://img.shields.io/badge/NAC-556270?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZiI+PHBhdGggZD0iTTEyIDEgMyA1djZjMCA1LjYgMy44IDEwLjcgOSAxMiA1LjItMS4zIDktNi40IDktMTJWNXoiLz48L3N2Zz4=)
 
 </div>
 

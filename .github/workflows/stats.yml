@@ -1,19 +1,17 @@
 name: Generate Stats
 
+# STATS_TOKEN(repo 권한 PAT)이 등록되어 있을 때만 자동 갱신합니다.
+# 기본 GITHUB_TOKEN은 공개 레포만 볼 수 있어서, 비공개 기여가 빠진 카드로
+# 덮어쓰게 됩니다. 토큰이 없으면 로컬에서 생성해 커밋한 카드를 그대로 둡니다.
 on:
   schedule:
     - cron: "0 19 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/scripts/gen-stats.mjs"
-      - ".github/workflows/stats.yml"
 
 jobs:
   stats:
     runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || vars.STATS_ENABLED == 'true'
     permissions:
       contents: write
     steps:
