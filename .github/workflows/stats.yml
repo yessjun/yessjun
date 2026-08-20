@@ -25,7 +25,8 @@ jobs:
 
       - name: Generate stat cards
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # STATS_TOKEN(개인 PAT, repo + read:user)을 등록하면 조직/비공개 기여까지 집계됩니다.
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           STATS_USER: ${{ github.repository_owner }}
         run: node .github/scripts/gen-stats.mjs
 
