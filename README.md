@@ -17,8 +17,8 @@
 
 - 🏗️ 부산대학교 클라우드 플랫폼 **`Pickle`** 과 **SW프로젝트관리시스템**을 기획부터 운영까지 총괄했고, 지금도 교내에서 서비스 중입니다.
 - ⚡ SW마에스트로 16기에서 **Knative 기반 scale-to-zero 배포 플랫폼 `LaunchPad`** 를 만들었습니다.
-- 🛡️ **BoB 8기 취약점 분석 트랙**과 공군 망분리 환경 관제 경험이 있어, 시스템을 **공격자 관점**으로도 봅니다.
-- 🧩 관심사는 **온프레미스 인프라 자동화**, **컨테이너 오케스트레이션**, **개발자 경험(DevEx)**.
+- 🛡️ **BoB 8기 취약점 분석 트랙**을 수료하고, 공군에서 망분리 환경 네트워크 관제를 했습니다.
+- 🧩 온프레미스 인프라 자동화와 컨테이너 오케스트레이션을 주로 다룹니다.
 
 ```yaml
 name:     신예준 (Yejun Shin)
@@ -26,7 +26,7 @@ role:     Platform Engineer
 edu:      Pusan National University, CSE
 programs: [ SW Maestro 16th, BoB 8th (Vulnerability Analysis), Codyssey AI 2nd ]
 focus:    [ Kubernetes, Knative, Proxmox VE, Spring Boot, Go ]
-motto:    "인프라는 보이지 않을 때 가장 잘 동작한다"
+running:  [ pickle.pusan.ac.kr, opus.pusan.ac.kr ]
 ```
 
 <br/>
@@ -38,11 +38,12 @@ motto:    "인프라는 보이지 않을 때 가장 잘 동작한다"
 <td width="50%" valign="top">
 
 ### 🥒 Pickle
-> **부산대학교 셀프서비스 클라우드 플랫폼**
 
-구성원이 필요한 컴퓨팅 자원을 직접 신청하면 승인 후 자동으로 준비되고, 사용 종료 시 회수까지 이어지는 전체 운영 흐름을 설계했습니다. **VM 프로비저닝**에서 출발해 **LLM API 게이트웨이**, **GPU 컨테이너** 등 제공 리소스를 넓혀가고 있습니다. SSH 게이트웨이, 웹 터미널, 도메인 기반 HTTPS 공개, 포트 포워딩 등 접근·네트워크 기능도 직접 구현했습니다.
+부산대학교 구성원이 쓰는 클라우드 플랫폼입니다. 신청, 승인, 자동 생성, 회수로 이어지는 흐름을 만들었습니다.
+처음엔 Proxmox VE 위의 VM만 다뤘는데 지금은 LLM API 게이트웨이와 GPU 컨테이너까지 제공 리소스를 넓히는 중입니다.
+접근 쪽은 SSH 게이트웨이, 웹 터미널, 도메인 HTTPS 공개, 포트 포워딩을 붙였습니다.
 
-`Spring Boot` `Go` `PostgreSQL` `Proxmox VE` `nftables` `GPU` `LLM Gateway`
+`Spring Boot` `Go` `PostgreSQL` `Proxmox VE` `nftables`
 
 [![Live](https://img.shields.io/badge/🌐_pickle.pusan.ac.kr-2c5364?style=flat-square)](https://pickle.pusan.ac.kr)
 [![Repo](https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github)](https://github.com/PNUops)
@@ -51,9 +52,10 @@ motto:    "인프라는 보이지 않을 때 가장 잘 동작한다"
 <td width="50%" valign="top">
 
 ### 🚀 LaunchPad
-> **Knative 기반 서버리스 배포 플랫폼** · SW마에스트로 16기
 
-코드를 올리면 **컨테이너 이미지 빌드부터 실행까지 자동으로** 이어지는 배포 구조를 만들었습니다. 요청이 없으면 Pod을 0으로 줄이고 트래픽이 들어오면 다시 띄우는 **scale-to-zero** 구조를, 네트워크 스토리지 공유를 통해 **데이터베이스까지 포함해** 설계했습니다.
+SW마에스트로 16기 프로젝트. 코드를 올리면 이미지 빌드부터 실행까지 알아서 되는 배포 플랫폼입니다.
+Knative로 요청이 없을 때 Pod을 0까지 내리고, 네트워크 스토리지로 볼륨을 공유해서 데이터베이스가 붙은
+서비스도 scale-to-zero가 되게 만들었습니다. GitHub Webhook을 물려 푸시하면 바로 배포됩니다.
 
 `Kubernetes` `Knative` `Docker` `GitHub Webhook`
 
@@ -65,9 +67,10 @@ motto:    "인프라는 보이지 않을 때 가장 잘 동작한다"
 <td width="50%" valign="top">
 
 ### 📊 SW프로젝트관리시스템
-> **부산대학교 학부 프로젝트 관리 서비스**
 
-프로젝트장으로 **기획·개발·운영을 총괄**했습니다. 실제로 시스템을 쓰게 될 학과 조교, 사업단 연구원과 직접 이야기하며 무엇이 필요한지 정리했고, 기능 우선순위와 구현 방향을 주도적으로 결정했습니다.
+부산대학교 SW교육센터에서 프로젝트장을 맡아 기획부터 운영까지 했습니다.
+시스템을 실제로 쓰게 될 학과 조교, 사업단 연구원과 이야기하면서 필요한 기능을 정리하고
+무엇부터 만들지 순서를 잡았습니다. 지금도 학부에서 쓰고 있습니다.
 
 `Spring` `MySQL` `3-tier`
 
@@ -78,11 +81,12 @@ motto:    "인프라는 보이지 않을 때 가장 잘 동작한다"
 <td width="50%" valign="top">
 
 ### 🛡️ Security Research
-> **취약점 분석 · 제보**
 
-- 글로벌 게임사 **클라이언트 인증 취약점** 발견 및 제보 (**버그바운티 $2,000**)
-- 글로벌 게임사 한국 모바일 스토어 **부정 재화 취득 취약점** 제보
-- 국립대학교 통합포털 인증 취약점 제보 (**KVE-2018-2164**)
+BoB 8기 취약점 분석 트랙을 하면서, 그리고 그 이후로 찾은 것들입니다.
+
+- 글로벌 게임사 클라이언트 인증 취약점 (버그바운티 $2,000)
+- 글로벌 게임사 한국 모바일 스토어 부정 재화 취득 취약점
+- 국립대학교 통합포털 인증 취약점 (KVE-2018-2164)
 
 `BoB 8th` `Vulnerability Analysis`
 
@@ -101,7 +105,7 @@ motto:    "인프라는 보이지 않을 때 가장 잘 동작한다"
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
+![C/C++](https://img.shields.io/badge/C%20%2F%20C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
 **Backend**
@@ -136,13 +140,10 @@ motto:    "인프라는 보이지 않을 때 가장 잘 동작한다"
 
 <div align="center">
 
-<img width="49%" src="./metrics.overview.svg" />
-<img width="49%" src="./metrics.languages.svg" />
+<img width="46%" src="./assets/stats.svg" alt="GitHub stats" />
+<img width="46%" src="./assets/langs.svg" alt="Most used languages" />
 
-<img width="49%" src="./metrics.isocalendar.svg" />
-<img width="49%" src="./metrics.achievements.svg" />
-
-<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=yessjun&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=64FFDA&line=64FFDA&point=FFFFFF&area=true" />
+<img width="93%" src="https://github-readme-activity-graph.vercel.app/graph?username=yessjun&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=64FFDA&line=64FFDA&point=FFFFFF&area=true" alt="Contribution graph" />
 
 </div>
 

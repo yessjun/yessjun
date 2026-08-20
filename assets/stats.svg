@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 228" width="480" height="228" role="img" aria-label="신예준 · GitHub Stats">
+  <defs>
+    <linearGradient id="edge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#64ffda"/><stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="479" height="227" rx="12" fill="#0d1117" stroke="#1f6feb33"/>
+  <rect x="0.5" y="0.5" width="479" height="3" rx="1.5" fill="url(#edge)"/>
+  <g font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif">
+    <text x="26" y="46" font-size="17" font-weight="700" fill="#64ffda">신예준 · GitHub Stats</text>
+    <text x="26" y="84" font-size="14" fill="#c9d1d9">Total Contributions (1y)</text>
+    <text x="454" y="84" font-size="15" font-weight="700" fill="#ffffff" text-anchor="end">5,140</text>
+    <line x1="26" y1="94" x2="454" y2="94" stroke="#ffffff" stroke-opacity="0.06"/>
+    <text x="26" y="114" font-size="14" fill="#c9d1d9">Commits (1y)</text>
+    <text x="454" y="114" font-size="15" font-weight="700" fill="#ffffff" text-anchor="end">1,906</text>
+    <line x1="26" y1="124" x2="454" y2="124" stroke="#ffffff" stroke-opacity="0.06"/>
+    <text x="26" y="144" font-size="14" fill="#c9d1d9">Pull Requests (1y)</text>
+    <text x="454" y="144" font-size="15" font-weight="700" fill="#ffffff" text-anchor="end">207</text>
+    <line x1="26" y1="154" x2="454" y2="154" stroke="#ffffff" stroke-opacity="0.06"/>
+    <text x="26" y="174" font-size="14" fill="#c9d1d9">Repositories Contributed To</text>
+    <text x="454" y="174" font-size="15" font-weight="700" fill="#ffffff" text-anchor="end">28</text>
+    <line x1="26" y1="184" x2="454" y2="184" stroke="#ffffff" stroke-opacity="0.06"/>
+    <text x="26" y="204" font-size="14" fill="#c9d1d9">Followers</text>
+    <text x="454" y="204" font-size="15" font-weight="700" fill="#ffffff" text-anchor="end">23</text>
+    <line x1="26" y1="214" x2="454" y2="214" stroke="#ffffff" stroke-opacity="0.06"/>
+  </g>
+</svg>
