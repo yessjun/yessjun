@@ -165,7 +165,7 @@ Knative로 요청이 없을 때 Pod을 0까지 내리고, 네트워크 스토리
 | 2017 | 한국정보올림피아드 공모부문 **은상** | 한국정보화진흥원장 |
 
 <details>
-<summary><b>📂 전체 수상 이력 펼치기 (30+)</b></summary>
+<summary><b>전체 수상 이력 펼치기 (30+)</b></summary>
 
 <br/>
 
@@ -226,7 +226,7 @@ Knative로 요청이 없을 때 Pod을 0까지 내리고, 네트워크 스토리
 </details>
 
 <details>
-<summary><b>💼 경력 & 활동</b></summary>
+<summary><b>경력 & 활동</b></summary>
 
 <br/>
 
