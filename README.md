@@ -137,8 +137,6 @@ Knative로 요청이 없을 때 Pod을 0까지 내리고, 네트워크 스토리
 ![TMS](https://img.shields.io/badge/TMS-556270?style=for-the-badge)
 ![NAC](https://img.shields.io/badge/NAC-556270?style=for-the-badge)
 
-<sub>방화벽·IPS로 트래픽 제어와 비정상 탐지, TMS로 정책 통합 관리와 로그 모니터링, NAC로 단말 인증과 접근 제어 (공군사관학교 정보보호반)</sub>
-
 </div>
 
 <br/>
