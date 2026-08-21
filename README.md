@@ -18,7 +18,7 @@
 - 🏗️ 클라우드 플랫폼 **`Pickle`** 과 SW프로젝트관리시스템 **`Opus`** 를 기획부터 운영까지 총괄했고, 지금까지 교내에서 서비스 중입니다.
 - ⚡ SW마에스트로 16기에서 **Knative 기반 scale-to-zero 배포 플랫폼 `LaunchPad`** 를 만들었습니다.
 - 🛡️ **BoB 8기 취약점 분석 트랙**을 수료하고, **공군사관학교**에서 망분리 환경 관제와 엔드포인트 보안, 침해사고 대응을 했습니다.
-- 🔎 글로벌 게임사와 국립대학교 포털 등 운영 중인 서비스에서 취약점을 찾아 제보해 왔습니다.
+- 🔎 글로벌 게임사와 국립대학교 포털 등에서 취약점을 찾아 제보해 왔습니다.
 - 🧩 **LG CNS** 인턴으로 승인 절차와 접근 통제가 있는 엔터프라이즈 환경에서 개발과 배포를 경험했습니다.
 
 ```yaml
@@ -125,6 +125,7 @@ Tekton으로 빌드 파이프라인을 구성하고, Knative로 요청이 없을
 ![Proxmox](https://img.shields.io/badge/Proxmox_VE-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Knative](https://img.shields.io/badge/Knative-0865AD?style=for-the-badge&logo=knative&logoColor=white)
+![Tekton](https://img.shields.io/badge/Tekton-FD495C?style=for-the-badge&logo=tekton&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 **Security & Network**
