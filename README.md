@@ -70,10 +70,10 @@ SSH 게이트웨이, 웹 터미널, 도메인 HTTPS 공개, 포트 포워딩 등
 ### 🚀 LaunchPad
 
 SW마에스트로 16기 프로젝트. 코드를 올리면 이미지 빌드부터 실행까지 알아서 되는 배포 플랫폼입니다.
-Knative로 요청이 없을 때 Pod을 0까지 내리고, 네트워크 스토리지로 볼륨을 공유해서 데이터베이스가 붙은
-서비스도 scale-to-zero가 되게 만들었습니다. GitHub Webhook을 물려 푸시하면 바로 배포됩니다.
+Tekton으로 빌드 파이프라인을 구성하고, Knative로 요청이 없을 때 Pod을 0까지 내렸습니다.
+네트워크 스토리지로 볼륨을 공유해 데이터베이스가 붙은 서비스도 scale-to-zero가 되게 만들었습니다.
 
-`Kubernetes` `Knative` `Docker` `GitHub Webhook`
+`Kubernetes` `Knative` `Tekton` `Docker`
 
 [![SWM](https://img.shields.io/badge/SW_Maestro-16th-64ffda?style=flat-square)](https://www.swmaestro.org)
 
