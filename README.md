@@ -15,7 +15,7 @@
 
 안녕하세요, 안전하고 멈추지 않는 시스템을 만드는 **플랫폼 엔지니어** 신예준입니다.
 
-- 🏗️ 교내 클라우드 플랫폼 **`Pickle`** 은 직접 기획해 개발과 운영까지 하고 있고, SW프로젝트관리시스템 **`Opus`** 에서는 기획과 인프라를 담당했습니다.
+- 🏗️ 두 서비스 모두 제가 시작했습니다. 교내 클라우드 플랫폼 **`Pickle`** 은 개발과 운영까지 직접 하고 있고, SW프로젝트관리시스템 **`Opus`** 는 기획과 인프라를 담당했습니다.
 - ⚡ SW마에스트로 16기에서 **Knative 기반 scale-to-zero 배포 플랫폼 `LaunchPad`** 를 만들었습니다.
 - 🛡️ **BoB 8기 취약점 분석 트랙**을 수료하고, **공군사관학교**에서 망분리 환경 관제와 엔드포인트 보안, 침해사고 대응을 했습니다.
 - 🔎 글로벌 게임사 **버그바운티**, 국립대학교 통합포털 등에서 인증 취약점을 찾아 제보해 왔습니다.
@@ -54,11 +54,11 @@ SSH 게이트웨이, 웹 터미널, 도메인 HTTPS 공개, 포트 포워딩 등
 
 ### 📊 SW프로젝트관리시스템 (Opus)
 
-프로젝트장으로 기획을 맡고, 인프라 구축과 운영을 담당했습니다.
+교내 해커톤에서 시작해 팀을 모으고 프로젝트를 이끌었습니다. 기획과 인프라를 담당했습니다.
 시스템을 실제로 쓰게 될 학과 조교, 사업단 연구원과 이야기하면서 필요한 기능을 정리하고
 무엇부터 만들지 순서를 잡았습니다. 지금까지 학부에서 쓰고 있습니다.
 
-`Docker` `NGINX` `GitHub Actions` `On-prem`
+`Docker` `NGINX` `GitHub Actions`
 
 [![Live](https://img.shields.io/badge/🌐_opus.pusan.ac.kr-2c5364?style=flat-square)](https://opus.pusan.ac.kr)
 [![Repo](https://img.shields.io/badge/Repos-181717?style=flat-square&logo=github)](https://github.com/orgs/PNUops/repositories?q=opus)
